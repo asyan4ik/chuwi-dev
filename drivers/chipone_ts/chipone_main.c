@@ -10,8 +10,8 @@
 #include "chipone_regs.h"
 
 #define CHIPONE_NAME "chipone_ts"
-#define SCREEN_MAX_X 1366
-#define SCREEN_MAX_Y 768
+#define SCREEN_MAX_X 1920
+#define SCREEN_MAX_Y 1200
 
 struct chipone_ts_data
 {
