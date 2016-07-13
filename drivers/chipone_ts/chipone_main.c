@@ -12,9 +12,9 @@
 #define CHIPONE_NAME "chipone_ts"
 
 #ifdef CONFIG_HI10
-    #define SCREEN_MAX_X 1920
-    #define SCREEN_MAX_Y 1080
-    #define CHIPONE_IRQ  0xB9 // HACK: Hardcode IRQ, kernel doesn't get it at boot time
+    #define SCREEN_MAX_X 1200
+    #define SCREEN_MAX_Y 1920
+    #define CHIPONE_IRQ  0xB8 // HACK: Hardcode IRQ, kernel doesn't get it at boot time
 #else  //CONFIG_VI10U
     #define SCREEN_MAX_X 1366
     #define SCREEN_MAX_Y 768
